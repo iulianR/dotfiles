@@ -1,0 +1,19 @@
+[user]
+	name = Iulian Radu
+	email = iulian.radu67@gmail.com
+[alias]
+  	co = checkout
+  	ci = commit
+  	st = status
+  	br = branch
+  	hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
+  	type = cat-file -t
+  	dump = cat-file -p
+[push]
+	default = simple
+[url "git://anongit.kde.org/"]
+    insteadOf = kde:
+[url "git@git.kde.org:"]
+    pushInsteadOf = kde:
+[core]
+	editor = vim
