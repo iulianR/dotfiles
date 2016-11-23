@@ -1,19 +1,15 @@
 [user]
 	name = Iulian Radu
-	email = iulian.radu67@gmail.com
+	email = ivascu.gabriel59@gmail.com
 [alias]
-  	co = checkout
-  	ci = commit
-  	st = status
-  	br = branch
-  	hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
-  	type = cat-file -t
-  	dump = cat-file -p
-[push]
-	default = simple
-[url "git://anongit.kde.org/"]
-    insteadOf = kde:
-[url "git@git.kde.org:"]
-    pushInsteadOf = kde:
+	co = checkout
+	br = branch
+	st = status
+	hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
+	ci = commit
 [core]
 	editor = vim
+[push]
+	default = simple
+[bz]
+	browser = google-chrome
